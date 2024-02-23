@@ -18,4 +18,4 @@ app.get('/',()=>{
 
 app.listen(()=>{
     console.log("Server Started")
-})
+});
