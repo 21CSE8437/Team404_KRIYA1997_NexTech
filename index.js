@@ -3,7 +3,7 @@ var mysql = require('mysql2')
 var cors = require('cors')
 var config = require('./mysqlConfig')
 const app = express()
-var StaffRouter = require('./src/StaffManagement')
+var StaffRouter = require('./src/Staff/StaffManagement')
 var db = mysql.createConnection(config)
 db.connect(() => {
     console.log("Mysql Connected")
