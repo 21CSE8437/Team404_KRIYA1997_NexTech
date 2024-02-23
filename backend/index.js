@@ -6,7 +6,7 @@ var cors = require('cors')
 var db = mysql.createConnection({
     host:"db4free.net",
     user:"naveen1234",
-    password:"mr.stark",
+    password:"guessme",
     database:"naveen1234"
 })
 const app = express()
