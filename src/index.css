@@ -5,3 +5,12 @@
 *{
     font-family: "Poppins", sans-serif;
 }
+table,tr,td,th{
+    border: 2px solid black;
+    text-align: center;
+    
+}
+td{
+    padding: 5px;
+    
+}

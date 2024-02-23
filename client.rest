@@ -1,0 +1,10 @@
+﻿POST http://localhost:2000/addStaff HTTP/1.1
+content-type: application/json
+
+{
+    "name":"Naveen",
+    "dept":"CSE",
+    "qualification":"CSE",
+    "dob":"28-08-2004",
+    "role":"Teacher"
+}

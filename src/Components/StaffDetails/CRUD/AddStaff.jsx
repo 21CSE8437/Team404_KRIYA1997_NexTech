@@ -10,13 +10,13 @@ const AddStaff = () => {
         name:e.target.form[0].value,
         dept:e.target.form[1].value,
         date:e.target.form[2].value,
-        qual:e.target.form[3].value,
+        qualification:e.target.form[3].value,
         role:e.target.form[4].value,
       }),
       headers:{
         "Content-Type":"application/json"
       }
-    }).then((val)=>{console.log(val.body);})
+    })
     
   }
   return (
